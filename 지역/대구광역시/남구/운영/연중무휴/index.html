@@ -54,7 +54,7 @@
 						
 	<link rel="alternate" type="application/rss+xml" title="전국약방" href="https://pharmacy.yohan1002.com/atom.xml"/>
 
-			<link href="/res/css/min/f7e725cb879d41b0c1dffd3e365cd1ca.css" type="text/css" rel="stylesheet" />
+			<link href="/res/css/min/38c9b2e0afe5cdbe4a0840a4d790e93f.css" type="text/css" rel="stylesheet" />
 
 	
 			
@@ -85,47 +85,82 @@
 		<div class="title">
 			<h2 class="entry-title">대구광역시 남구 연중무휴  약국 정보</h2>
 						<time class="published hide" datetime="2020-01-03 14:21:57">2020.01.03. 14:21</time>
-			<time class="updated hide" datetime="2020-01-03 14:21:57">2020.01.03. 14:21</time>
+			<time class="updated hide" datetime="2020-01-16 14:27:35">2020.01.16. 14:27</time>
 			<span class="vcard author hide"><span class="fn">yohan1002@gmail.com</span></span>
 		</div>
 		<div class="markdown-body entry-content"><section class="list">
-		<div class="warning">
-		※ 방문전 전화로 운영 여부 확인이 필요 합니다.
-	</div>
-	
 				<ul class="nav nav-tabs" id="myTab" role="tablist">
 							<li class="nav-item">
-					<a class="nav-link  filter-default" href="/지역/대구광역시/남구" >전체</a>
+					<a class="nav-link  filter-default" href="/지역/대구광역시/남구" >
+						전체
+					</a>
 				</li>
 							<li class="nav-item">
-					<a class="nav-link  filter-saturday" href="/지역/대구광역시/남구/운영/토요일" >토요일</a>
+					<a class="nav-link  filter-saturday" href="/지역/대구광역시/남구/운영/토요일" >
+						토
+					</a>
 				</li>
 							<li class="nav-item">
-					<a class="nav-link  filter-sunday" href="/지역/대구광역시/남구/운영/일요일" >일요일</a>
+					<a class="nav-link  filter-sunday" href="/지역/대구광역시/남구/운영/일요일" >
+						일
+					</a>
 				</li>
 							<li class="nav-item">
-					<a class="nav-link  active  filter-always" href="/지역/대구광역시/남구/운영/연중무휴" >연중무휴</a>
+					<a class="nav-link  active  filter-always" href="/지역/대구광역시/남구/운영/연중무휴" >
+						연중무휴
+					</a>
 				</li>
 							<li class="nav-item">
-					<a class="nav-link  filter-holiday" href="/지역/대구광역시/남구/운영/공휴일" >공휴일</a>
+					<a class="nav-link  filter-holiday" href="/지역/대구광역시/남구/운영/공휴일" >
+						공휴일
+					</a>
 				</li>
 							<li class="nav-item">
-					<a class="nav-link  filter-midnight" href="/지역/대구광역시/남구/운영/심야" >심야</a>
+					<a class="nav-link  filter-midnight" href="/지역/대구광역시/남구/운영/심야" >
+						심야
+					</a>
 				</li>
 					</ul>
+	
+				<div class="dongFilter">
+			<button type="button" id="layer_open">동단위로 보기</button>
+			<div id="layer_content" class="dongSelectorBox">
+				<div class="dongSelector">
+					<h4>동선택 <button type="button" class="close" id="layer_close">X</button></h4>
+					<ul class="clearfix dongList">
+																			<li class="represent"><a href="/지역/대구광역시/남구//운영/연중무휴">남구</a></li>
+						
+													<li><a href="/지역/대구광역시/남구/대명동/운영/연중무휴">대명동</a></li>
+											</ul>
+				</div>
+			</div>
+		</div>
+	
+			<div class="warning">
+			※ 방문전 전화로 운영 여부 확인이 필요 합니다.
+		</div>
 	
 		<table id="pharmacyList">
 		<thead>
 			<tr>
-				<th>약국명</th>
+				<th class="label">약국명</th>
 				<th>상세정보</th>
 			</tr>
 		</thead>
 					<tbody>
 									<tr>
-						<td>대명동산약국</td>
+						<td class="name">
+							<span class="dongName">대명동</span><br />
+							대명동산약국
+						</td>
 						<td>
-							<div class="addr">
+															<div class="labels">
+																												<span class="badge badge-saturday">토</span>
+																												<span class="badge badge-sunday">일</span>
+																												<span class="badge badge-holiday">공휴일</span>
+																												<span class="badge badge-always">연중무휴</span>
+																	</div>
+														<div class="addr">
 								대구광역시 남구 명덕로 70
 																	<small>대명시장-&gt;계대네거리100m</small>
 															</div>
@@ -136,13 +171,7 @@
 																									<span class="time-item">일요일: 10:00 ~ 21:30</span>
 																									<span class="time-item">공휴일: 09:00 ~ 20:00</span>
 															</div>
-														<div class="labels">
-																											<span class="badge badge-saturday">토</span>
-																										<span class="badge badge-sunday">일</span>
-																									<span class="badge badge-holiday">공휴일</span>
-																									<span class="badge badge-always">연중무휴</span>
-															</div>
-													</td>
+						</td>
 					</tr>
 					<tr class="ad-row">
 						<td colspan="2">
@@ -150,10 +179,19 @@
 						</td>
 					</tr>
 									<tr>
-						<td>온누리김약국</td>
+						<td class="name">
+							<span class="dongName">대명동</span><br />
+							온누리김약국
+						</td>
 						<td>
-							<div class="addr">
-								대구광역시 남구 영선길 28  (대명동)
+															<div class="labels">
+																												<span class="badge badge-saturday">토</span>
+																												<span class="badge badge-sunday">일</span>
+																												<span class="badge badge-holiday">공휴일</span>
+																												<span class="badge badge-always">연중무휴</span>
+																	</div>
+														<div class="addr">
+								대구광역시 남구 영선길 28
 																	<small>범어로타리에서수성교방향2변째파란불건널목</small>
 															</div>
 							<div class="tel">053-744-9133</div>
@@ -163,13 +201,7 @@
 																									<span class="time-item">일요일: 09:00 ~ 13:00</span>
 																									<span class="time-item">공휴일: 08:30 ~ 17:00</span>
 															</div>
-														<div class="labels">
-																											<span class="badge badge-saturday">토</span>
-																										<span class="badge badge-sunday">일</span>
-																									<span class="badge badge-holiday">공휴일</span>
-																									<span class="badge badge-always">연중무휴</span>
-															</div>
-													</td>
+						</td>
 					</tr>
 					<tr class="ad-row">
 						<td colspan="2">
@@ -177,9 +209,18 @@
 						</td>
 					</tr>
 									<tr>
-						<td>샘물약국</td>
+						<td class="name">
+							<span class="dongName">대명동</span><br />
+							샘물약국
+						</td>
 						<td>
-							<div class="addr">
+															<div class="labels">
+																												<span class="badge badge-saturday">토</span>
+																												<span class="badge badge-sunday">일</span>
+																												<span class="badge badge-holiday">공휴일</span>
+																												<span class="badge badge-always">연중무휴</span>
+																	</div>
+														<div class="addr">
 								대구광역시 남구 월배로 468
 																	<small>한영한마음병원 1층. 구 달성군청 자리 위치</small>
 															</div>
@@ -190,13 +231,7 @@
 																									<span class="time-item">일요일: 09:00 ~ 21:00</span>
 																									<span class="time-item">공휴일: 09:00 ~ 21:00</span>
 															</div>
-														<div class="labels">
-																											<span class="badge badge-saturday">토</span>
-																										<span class="badge badge-sunday">일</span>
-																									<span class="badge badge-holiday">공휴일</span>
-																									<span class="badge badge-always">연중무휴</span>
-															</div>
-													</td>
+						</td>
 					</tr>
 					<tr class="ad-row">
 						<td colspan="2">
@@ -204,10 +239,19 @@
 						</td>
 					</tr>
 									<tr>
-						<td>동제약국</td>
+						<td class="name">
+							<span class="dongName">대명동</span><br />
+							동제약국
+						</td>
 						<td>
-							<div class="addr">
-								대구광역시 남구 중앙대로 145, (대명동)
+															<div class="labels">
+																												<span class="badge badge-saturday">토</span>
+																												<span class="badge badge-sunday">일</span>
+																												<span class="badge badge-holiday">공휴일</span>
+																												<span class="badge badge-always">연중무휴</span>
+																	</div>
+														<div class="addr">
+								대구광역시 남구 중앙대로 145,
 																	<small>영대병원 입구(대구고등학교 버스정류장)</small>
 															</div>
 							<div class="tel">053-656-2802</div>
@@ -217,13 +261,7 @@
 																									<span class="time-item">일요일: 12:00 ~ 20:00</span>
 																									<span class="time-item">공휴일: 09:00 ~ 20:00</span>
 															</div>
-														<div class="labels">
-																											<span class="badge badge-saturday">토</span>
-																										<span class="badge badge-sunday">일</span>
-																									<span class="badge badge-holiday">공휴일</span>
-																									<span class="badge badge-always">연중무휴</span>
-															</div>
-													</td>
+						</td>
 					</tr>
 					<tr class="ad-row">
 						<td colspan="2">
@@ -231,10 +269,20 @@
 						</td>
 					</tr>
 									<tr>
-						<td>남신약국</td>
+						<td class="name">
+							<span class="dongName">대명동</span><br />
+							남신약국
+						</td>
 						<td>
-							<div class="addr">
-								대구광역시 남구 중앙대로 248, (대명동)
+															<div class="labels">
+																			<span class="badge badge-midnight">심야</span>
+																												<span class="badge badge-saturday">토</span>
+																												<span class="badge badge-sunday">일</span>
+																												<span class="badge badge-holiday">공휴일</span>
+																												<span class="badge badge-always">연중무휴</span>
+																	</div>
+														<div class="addr">
+								대구광역시 남구 중앙대로 248,
 																	<small>교대역과명덕역중간지점</small>
 															</div>
 							<div class="tel">053-473-4411</div>
@@ -244,14 +292,7 @@
 																									<span class="time-item">일요일: 15:00 ~ 22:00</span>
 																									<span class="time-item">공휴일: 09:00 ~ 22:00</span>
 															</div>
-														<div class="labels">
-																	<span class="badge badge-midnight">심야</span>
-																											<span class="badge badge-saturday">토</span>
-																										<span class="badge badge-sunday">일</span>
-																									<span class="badge badge-holiday">공휴일</span>
-																									<span class="badge badge-always">연중무휴</span>
-															</div>
-													</td>
+						</td>
 					</tr>
 					<tr class="ad-row">
 						<td colspan="2">
@@ -400,6 +441,6 @@
 </footer>
 
 
-<script src="/res/js/min/13ad29de2aac41787d3832395cbf7392.js" async="true" type="text/javascript"></script>
+<script src="/res/js/min/ab5d7528178d1431f42084bfc36b8d1e.js" async="true" type="text/javascript"></script>
 </body>
 </html>
