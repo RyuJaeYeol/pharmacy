@@ -2,3 +2,5 @@ User-agent: *
 Allow: /
 
 Sitemap: https://pharmacy.yohan1002.com/sitemap.xml
+
+#DaumWebMasterTool:7a176978139e0ea9901d6f2d071f39b6bfbf2b2ca2c8e97c4c5d51ce39a0ec9c:NH15sc8Ku8O+7UT8vaD60g==
